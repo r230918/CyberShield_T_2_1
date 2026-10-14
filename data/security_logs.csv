@@ -1,0 +1,11 @@
+timestamp,source,event_type,severity,description
+2026-10-12 09:00:00,HOST-01,LOGIN,LOW,Successful login for user admin
+2026-10-12 09:05:00,HOST-02,LOGIN,HIGH,Multiple failed login attempts from IP 192.168.1.50
+2026-10-12 09:06:00,HOST-01,NETWORK,MEDIUM,Unusual connection attempt on port 4444
+2026-10-12 09:08:00,HOST-03,MALWARE,CRITICAL,Suspicious malware signature detected in temp directory
+2026-10-12 09:10:00,HOST-02,ACCESS,HIGH,Unauthorized access attempt to confidential records
+2026-10-12 09:12:00,HOST-04,NETWORK,LOW,Outbound HTTPS traffic to cloud repository
+2026-10-12 09:15:00,HOST-01,MALWARE,CRITICAL,Ransomware encryption activity suspected in user folder
+2026-10-12 09:18:00,HOST-05,LOGIN,MEDIUM,Password brute force pattern detected
+2026-10-12 09:20:00,HOST-03,SYSTEM,HIGH,Privilege escalation attempt using vulnerable driver
+2026-10-12 09:25:00,HOST-02,NETWORK,MEDIUM,Port scan detected across internal subnet
